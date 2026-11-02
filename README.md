@@ -46,9 +46,7 @@ Start the development server:
 npm run dev
 ```
 
-## 📸 Screenshots
 
-Add a screenshot of your application here.
 
 ## 👩‍💻 Author
 
