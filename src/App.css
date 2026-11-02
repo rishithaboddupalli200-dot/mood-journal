@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1fa;
+  color: #333;
+}
+
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #6c4ab6;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.journal-form,
+.entry-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px #00000010;
+  margin-bottom: 25px;
+}
+
+.mood-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.mood-options button {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.mood-options button span {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.mood-options button.selected {
+  border: 2px solid #8b5cf6;
+  background: #f3e8ff;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: vertical;
+  font: inherit;
+}
+
+.save-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.entry-header span {
+  font-weight: bold;
+}
+
+.entry-header small {
+  color: #777;
+}
+
+.entry-card p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 15px auto;
+    padding: 15px;
+  }
+}
