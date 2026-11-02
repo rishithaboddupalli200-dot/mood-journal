@@ -1,16 +1,55 @@
-# React + Vite
+# 🌸 Mood Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and interactive mood-tracking application built with React. Record your daily feelings, reflect on your experiences, and visualize your mood history.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Select your mood using emojis.
+- Write and save daily journal entries.
+- View previous entries with dates.
+- Delete journal entries.
+- Visualize mood history with an interactive chart.
+- Automatically save entries using browser localStorage.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Recharts
+- Vite
+- localStorage
 
-## Expanding the Oxlint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/rishithaboddupalli200-dot/mood-journal.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd mood-journal
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📸 Screenshots
+
+Add a screenshot of your application here.
+
+## 👩‍💻 Author
+
+Rishitha
