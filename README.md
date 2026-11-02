@@ -44,8 +44,8 @@ Start the development server:
 
 ```bash
 npm run dev
-```
-
+```## 🌐 Live Demo
+https://mood-journal-bice-kappa.vercel.app
 
 
 ## 👩‍💻 Author
